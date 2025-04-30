@@ -1,0 +1,50 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+export default function People({ title, people }) {
+  return (
+    <section className="py-16 px-4 bg-white">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-10 relative inline-block">
+          <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-10 h-1 bg-red-600 -ml-12"></span>
+          {title}
+        </h2>
+
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          slidesPerView={1}
+          spaceBetween={20}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+            1280: { slidesPerView: 4 },
+          }}
+        >
+          {people.map((person, index) => (
+            <SwiperSlide key={index}>
+              <div className="bg-gradient-to-b from-yellow-300 to-orange-500 text-white rounded-xl p-6 mx-auto shadow-xl">
+                <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full bg-white">
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-bold">{person.name}</h3>
+                <p className="text-sm mt-1">{person.title}</p>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
+}
