@@ -5,7 +5,7 @@ export default function Facebookpost() {
         {/* Facebook Image */}
         <div className="flex justify-center">
           <img
-            src="/images/facebook-section.png"
+            src="img.png"
             alt="Facebook Connect Section"
             className="w-full max-w-md rounded-lg shadow-md"
           />
@@ -14,7 +14,7 @@ export default function Facebookpost() {
         {/* m-swasth Logo */}
         <div className="flex justify-center">
           <img
-            src="/images/m-swasth-logo.png"
+            src="facebooklogo.png"
             alt="m-swasth Logo"
             className="w-full max-w-xs md:max-w-md"
           />

@@ -5,22 +5,22 @@ const clients = [
   {
     name: "Ms. Binti Devi",
     location: "Bamheta - Ghaziabad",
-    image: "/images/client2.jpg",
+    image: "client.png",
   },
   {
     name: "",
     location: "",
-    image: "/images/client1.jpg",
+    image: "client.png",
   },
   {
     name: "",
     location: "",
-    image: "/images/client3.jpg",
+    image: "client.png",
   },
   {
     name: "",
     location: "",
-    image: "/images/client4.jpg",
+    image: "client.png",
   },
 ];
 

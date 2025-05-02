@@ -1,5 +1,5 @@
-import { FaPhoneAlt, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaPhoneAlt, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
+import Image from "next/image";
 
 export default function GetInTouch() {
   return (
@@ -7,7 +7,7 @@ export default function GetInTouch() {
       {/* Fixed Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/contact-bg.png"
+          src="banner.png"
           alt="Contact Background"
           layout="fill"
           objectFit="cover"
@@ -22,7 +22,9 @@ export default function GetInTouch() {
           {/* Left Column - Contact Info */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-10">
-              <span className="border-l-4 border-[#ff4a24] pl-4">Get in touch for any kind of information</span>
+              <span className="border-l-4 border-[#ff4a24] pl-4">
+                Get in touch for any kind of information
+              </span>
             </h2>
 
             <div className="space-y-10">
@@ -31,7 +33,10 @@ export default function GetInTouch() {
                 <FaMapMarkerAlt className="text-2xl" />
                 <div>
                   <h3 className="font-bold text-xl">Corporate Office:</h3>
-                  <p>SATYA Tower, Plot No 7A, Sector 125, Noida, Uttar Pradesh - 201301</p>
+                  <p>
+                    SATYA Tower, Plot No 7A, Sector 125, Noida, Uttar Pradesh -
+                    201301
+                  </p>
                 </div>
               </div>
 
@@ -49,7 +54,10 @@ export default function GetInTouch() {
                 <FaMapMarkerAlt className="text-2xl" />
                 <div>
                   <h3 className="font-bold text-xl">Registered Office:</h3>
-                  <p>519, 5th Floor, DLF Prime Tower, Block- F, Okhla Phase-1, New Delhi - 110020</p>
+                  <p>
+                    519, 5th Floor, DLF Prime Tower, Block- F, Okhla Phase-1,
+                    New Delhi - 110020
+                  </p>
                 </div>
               </div>
 
@@ -66,7 +74,9 @@ export default function GetInTouch() {
 
           {/* Right Column - Form */}
           <div>
-            <h2 className="text-4xl font-light mb-10 text-right">Leave us a message</h2>
+            <h2 className="text-4xl font-light mb-10 text-right">
+              Leave us a message
+            </h2>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <input

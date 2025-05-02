@@ -3,7 +3,7 @@ import Aim from '@/components/Aim';
 import About from '../components/About';
 import SoulOfSatya from '@/components/SoulOfSatya';
 import OurProducts from '@/components/OurProducts';
-import People from '../components/People';
+import People from '../components/People.jsx';
 import StatsSection from '@/components/StatsSection';
 import ClientsSpeak from '@/components/ClientsSpeak';
 import GetInTouch from '@/components/GetInTouch';

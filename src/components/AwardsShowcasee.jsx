@@ -1,13 +1,12 @@
 import Image from "next/image";
-import trophyBg from "/public/center-trophy.png";
 
 const sideImages = [
-  "/awards/1.png",
-  "/awards/2.png",
-  "/awards/3.png",
-  "/awards/4.png",
-  "/awards/5.png",
-  "/awards/6.png",
+  "/award.png",
+  "/award.png",
+  "/award.png",
+  "/award.png",
+  "/award.png",
+  "/award.png",
 ];
 
 export default function AwardsShowcase() {
@@ -35,7 +34,7 @@ export default function AwardsShowcase() {
         {/* Center Content */}
         <div className="relative w-full lg:w-1/2 flex items-center justify-center py-12 px-6 bg-black text-white text-center overflow-hidden rounded-md">
           <Image
-            src={trophyBg}
+            src="/award.png"
             alt="Trophy background"
             layout="fill"
             objectFit="cover"
@@ -48,7 +47,7 @@ export default function AwardsShowcase() {
               </span>
             </h2>
             <p className="italic text-xl mt-6">Since</p>
-            <h1 className="text-[100px] md:text-[140px] font-bold tracking-wide bg-clip-text text-transparent bg-[url('/public/highlight-text.png')] bg-cover">
+            <h1 className="text-[100px] md:text-[140px] font-bold tracking-wide bg-clip-text text-transparent bg-[url('/highlight-text.png')] bg-cover">
               2017
             </h1>
           </div>
@@ -58,7 +57,7 @@ export default function AwardsShowcase() {
         <div className="flex flex-col gap-4 w-full lg:w-1/4">
           {sideImages.slice(3, 6).map((src, idx) => (
             <div
-              key={idx}
+              key={idx + 3}
               className="group relative overflow-hidden rounded-md"
             >
               <Image

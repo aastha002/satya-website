@@ -59,7 +59,7 @@ const Navbar = () => {
       {/* Logo Bar */}
       <div className="bg-white py-3 px-4 shadow-md flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <img src="/images/satya-logo.png" alt="Logo" className="h-10" />
+          <img src="logo.png" alt="Logo" className="h-10" />
           <span className="font-bold text-[#d9480f] text-xl">
             SATYA MicroCapital Ltd.
           </span>

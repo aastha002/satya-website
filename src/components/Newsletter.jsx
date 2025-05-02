@@ -26,7 +26,7 @@ export default function NewsletterSection() {
         {/* Right Column - Newsletter Image */}
         <div className="flex-1 flex justify-center relative">
           <Image
-            src="/newsletter-sample.png"
+            src="news.png"
             alt="Newsletter Preview"
             width={500}
             height={500}

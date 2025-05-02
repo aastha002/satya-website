@@ -5,12 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
-const banners = [
-  "/hero/banner1.jpg",
-  "/hero/banner2.jpg",
-  "/hero/banner3.jpg",
-  "/hero/banner4.jpg",
-];
+const banners = ["banner.png", "banner.png", "banner.png", "banner.png"];
 
 export default function Hero() {
   return (

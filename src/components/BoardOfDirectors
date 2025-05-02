@@ -9,32 +9,32 @@ const directors = [
   {
     name: "Mr. Sanjay Gandhi",
     title: "Nominee Director",
-    image: "/directors/sanjay.png",
+    image: "people.png",
   },
   {
     name: "Ms. Surekha Marandi",
     title: "Independent Director",
-    image: "/directors/surekha.png",
+    image: "people.png",
   },
   {
     name: "Mr. Vivek Tiwari",
     title: "MD & CEO",
-    image: "/directors/vivek.png",
+    image: "people.png",
   },
   {
     name: "Mr. C.P. Mohan",
     title: "Independent Director",
-    image: "/directors/mohan.png",
+    image: "people.png",
   },
   {
     name: "Mr. Arun Sharma",
     title: "Independent Director",
-    image: "/directors/arun.png",
+    image: "people.png",
   },
   {
     name: "Ms. Radhika Menon",
     title: "Nominee Director",
-    image: "/directors/radhika.png",
+    image: "people.png",
   },
 ];
 

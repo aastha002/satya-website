@@ -5,18 +5,18 @@ import "swiper/css/navigation";
 import Image from "next/image";
 
 const logos = [
-  "/partners/vivriti.png",
-  "/partners/sundaram.png",
-  "/partners/dia.png",
-  "/partners/sidbi.png",
-  "/partners/nabard.png",
+  "/partner.png",
+  "/partner.png",
+  "/partner.png",
+  "/partner.png",
+  "/partner.png",
 ];
 
 export default function PartnersCarousel() {
   return (
     <section
       className="relative bg-cover bg-center py-10"
-      style={{ backgroundImage: "url('/partners/handshake-bg.jpg')" }}
+      style={{ backgroundImage: "url('/partner.png')" }} // Correct background image URL
     >
       <div className="max-w-6xl mx-auto px-4">
         <Swiper

@@ -9,7 +9,7 @@ export default function Aim() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {/* Vision Card */}
         <div className="bg-white text-center p-10 shadow-xl relative rounded">
-          <img src="/img.png" alt="Vision Icon" className="mx-auto mb-6 w-16" />
+          <img src="aim.png" alt="Vision Icon" className="mx-auto mb-6 w-16" />
           <h3 className="text-2xl font-bold mb-2">Vision</h3>
           <div className="w-10 h-1 bg-gradient-to-r from-orange-500 to-red-600 mx-auto my-2" />
           <p className="text-gray-700 mt-4">
@@ -17,7 +17,7 @@ export default function Aim() {
             empowerment of 10 million households by the year 2030.”
           </p>
           <img
-            src="/img.png"
+            src="aim.png"
             alt=""
             className="absolute bottom-4 right-4 opacity-10 w-20"
           />
@@ -30,7 +30,7 @@ export default function Aim() {
           onMouseLeave={() => setHovered(false)}
         >
           <img
-            src="/img.png"
+            src="aim.png"
             alt="Mission"
             className="w-full h-full object-cover"
           />
@@ -58,7 +58,7 @@ export default function Aim() {
           <div className="w-10 h-1 bg-gradient-to-r from-orange-500 to-red-600 mx-auto my-2" />
           <p className="text-gray-700 mt-4">“May All Be Happy.”</p>
           <img
-            src="/img.png"
+            src="aim.png"
             alt=""
             className="absolute bottom-4 right-4 opacity-10 w-20"
           />

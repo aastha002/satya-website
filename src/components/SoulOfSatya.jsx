@@ -1,37 +1,32 @@
 import Image from "next/image";
-import trustIcon from "../public/trust.png";
-import transparencyIcon from "../public/transparency.png";
-import teamIcon from "../public/team.png";
-import technologyIcon from "../public/technology.png";
-import trainingIcon from "../public/training.png";
 
 const values = [
   {
-    icon: trustIcon,
+    icon: "soul.png",
     title: "Trust",
     description:
       "To develop a relationship of Trust and Truthfulness within the ecosystem of SATYA",
   },
   {
-    icon: transparencyIcon,
+    icon: "soul.png",
     title: "Transparency",
     description:
       "Aiming to develop a transparent culture across the organization",
   },
   {
-    icon: teamIcon,
+    icon: "soul.png",
     title: "Team",
     description:
       "To follow the values of “Team Strength” along with promoting “Coordination and Cooperation” across all verticals",
   },
   {
-    icon: technologyIcon,
+    icon: "soul.png",
     title: "Technology",
     description:
       "Leveraging modern and digital innovations to enhance operational efficiency and customer outreach",
   },
   {
-    icon: trainingIcon,
+    icon: "soul.png",
     title: "Training",
     description:
       "To continuously upgrade the knowledge and skills of employees and clients to ensure sustainable growth",

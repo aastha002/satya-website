@@ -35,22 +35,13 @@ export default function About() {
         {/* Image Section */}
         <div className="relative flex items-center justify-center">
           <Image
-            src="/img.png"
+            src="/ceo.png"
             alt="CEO of SATYA"
             className="rounded-lg shadow-lg"
             width={400}
             height={500}
             priority
           />
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-            <Image
-              src="/img.png"
-              alt="Award Badge"
-              width={140}
-              height={140}
-              className="rounded-full shadow-xl border-4 border-white"
-            />
-          </div>
         </div>
       </div>
     </section>
